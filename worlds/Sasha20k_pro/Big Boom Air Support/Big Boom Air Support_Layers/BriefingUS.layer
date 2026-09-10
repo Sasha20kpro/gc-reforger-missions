@@ -1,0 +1,44 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 558.728 138.135 4513.902
+  m_sTitle "SITUATION"
+  m_sTextData "<b>SITUATION</b>"\
+  ""\
+  "We have an armored Column consisting of 3 inoperable M2A3 BUSK Bradleys and 2 inoperable M1A2 Abrams which just went out of fuel in its emergency retreat and Separatists have been reported nearby, beacose of this we dismounted One Squad to Protect the Armored Column and two APACHES with Rockets and Stingers to Provide air support (and its crew)."\
+  ""\
+  " the enemy separatists have also been spotted using old recovered Little Birds in the last Months so expect at least One of these to Endanger out APACHES and Armored column with ATGMs and other Anti air missiles"\
+  ""\
+  "The Separatist ground Forces Consist of one Platoon, Probably With some APC or Technical Transport."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 649.757 134.116 4314.264
+  m_sTitle "MISSION"
+  m_sTextData "<b>MISSION</b>"\
+  ""\
+  "Protect the Armored Column for 45 minutes or Kill all Separatists"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 805.184 138.688 4069.067
+  m_sTitle "NOTES"
+  m_sTextData "<b>NOTES</b>"\
+  ""\
+  "US Defeat: Armored Column Fully Destroyed"\
+  "US Victory: 45 Min Pass or All Separatists Killed"\
+  ""\
+  "COMMAND:"\
+  "Rifle Squad SL Commands the Mission due to the PHQ being Busy rn"\
+  ""\
+  "Radio:"\
+  "MHz 48: Command net"\
+  "MHz 47: Rifle Squad net"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+}

@@ -1,0 +1,209 @@
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2092.182 159.322 4300.894
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 17
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6A548042C98681D4}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 17
+    }
+   }
+   m_iDay 12
+   m_iMonth 9
+   m_iYear 2021
+  }
+ }
+ coords 2147.627 152.821 4356.938
+ m_iDisableTime 3600
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   Enabled 1
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+  }
+ }
+ coords 478.241 140.304 3253.315
+ Points {
+  ShapePoint "{6A548068BB67C48A}" {
+   Position -128.242 0 172.702
+  }
+  ShapePoint "{6A548068B897A92A}" {
+   Position 11.427 0 10.694
+  }
+  ShapePoint "{6A548068A17EF191}" {
+   Position 298.829 46.982 214.68
+  }
+  ShapePoint "{6A54806890960932}" {
+   Position 612.448 0 694.595
+  }
+  ShapePoint "{6A5480689009B71F}" {
+   Position 756.725 0 770.654
+  }
+  ShapePoint "{6A5480689F4B7A36}" {
+   Position 930.58 0 820.696
+  }
+  ShapePoint "{6A5480689DCCB2C6}" {
+   Position 1135.853 0 895.23
+  }
+  ShapePoint "{6A5480689D46DDE0}" {
+   Position 1301.774 0 921.769
+  }
+  ShapePoint "{6A5480689C773BC3}" {
+   Position 1525.125 0 975.672
+  }
+  ShapePoint "{6A54806885706DA4}" {
+   Position 1925.998 -0 1056.824
+  }
+  ShapePoint "{6A54806884416F24}" {
+   Position 2189.263 -0 1044.106
+  }
+  ShapePoint "{6A5480688F18AD0F}" {
+   Position 2369.759 -0 1020.286
+  }
+  ShapePoint "{6A5480688E9453C1}" {
+   Position 2550.453 -0 977.01
+  }
+  ShapePoint "{6A5480688E1D1A1D}" {
+   Position 2712.764 -0 901.212
+  }
+  ShapePoint "{6A5480688D2FADA3}" {
+   Position 2855.831 -0 873.529
+  }
+  ShapePoint "{6A5480688C862032}" {
+   Position 3023.97 -0 802.45
+  }
+  ShapePoint "{6A5480688C0EB2D4}" {
+   Position 3155.788 -0 783.554
+  }
+  ShapePoint "{6A54806889AEF6CD}" {
+   Position 3311.34 0 707.659
+  }
+  ShapePoint "{6A54806889401D0A}" {
+   Position 3436.352 -0 695.756
+  }
+  ShapePoint "{6A54806888CAE365}" {
+   Position 3579.519 -0 663.659
+  }
+  ShapePoint "{6A548068882BBE18}" {
+   Position 3751.951 -0 677.359
+  }
+  ShapePoint "{6A548068F74FEA15}" {
+   Position 3908.566 -0 984.068
+  }
+  ShapePoint "{6A548068F60C088A}" {
+   Position 3516.475 -0 1241.205
+  }
+  ShapePoint "{6A548068F01E66FF}" {
+   Position 2750.706 -0 1468.098
+  }
+  ShapePoint "{6A548068FF017BD9}" {
+   Position 2086.247 0 1467.189
+  }
+  ShapePoint "{6A548068FC2F4839}" {
+   Position 1655.355 0 1406.848
+  }
+  ShapePoint "{6A548068FBADC078}" {
+   Position 1360.058 0 1347.035
+  }
+  ShapePoint "{6A548068FB041612}" {
+   Position 1141.626 0 1236.088
+  }
+  ShapePoint "{6A548068FA4E81DB}" {
+   Position 946.424 0 1207.139
+  }
+  ShapePoint "{6A548068F9CFE4DD}" {
+   Position 716.358 0 1266.685
+  }
+  ShapePoint "{6A548068F958EF88}" {
+   Position 532.238 0 1298.087
+  }
+  ShapePoint "{6A548068F8C3D701}" {
+   Position 360.859 0 1256.399
+  }
+  ShapePoint "{6A548068E5D147A8}" {
+   Position 236.328 -0 1023.409
+  }
+  ShapePoint "{6A548068E52AC61E}" {
+   Position 159.583 0 907.98
+  }
+  ShapePoint "{6A548068E4C4057D}" {
+   Position 87.105 0 797.032
+  }
+  ShapePoint "{6A548068E42AFE42}" {
+   Position 71.957 0 544.077
+  }
+  ShapePoint "{6A548068E24BCF4D}" {
+   Position -185.365 0 255.7
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2127.137 147.546 4432.497
+ m_missionEvents {
+  TILW_MissionEvent "{6A5480580A112E56}" {
+   m_name "ColumnKIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A5480587AC3AF63}" {
+     m_messageTitle "Column Destroyed"
+     m_messageBody "The Armored Column Has been Destroyed, Separatist Victory"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6A548058424A6543}" {
+    m_operands {
+     TILW_LiteralTerm "{6A5480584BAB0BED}" {
+      m_flagName "ABRAMS1"
+     }
+     TILW_LiteralTerm "{6A5480584A18E2D5}" {
+      m_flagName "ABRAMS2"
+     }
+     TILW_LiteralTerm "{6A548058B524A297}" {
+      m_flagName "BRADLEY1"
+     }
+     TILW_LiteralTerm "{6A548058B4094F39}" {
+      m_flagName "BRADLEY2"
+     }
+     TILW_LiteralTerm "{6A548058B2E5BE90}" {
+      m_flagName "BRADLEY3"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6A548058F9032D8E}" {
+   m_name "SeparatistsKIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A548058D050A3AA}" {
+     m_messageTitle "Separatists Forces KIA"
+     m_messageBody "Separatists Forces have all died or are inoperable, US Victory"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A54805F3FE5F090}" {
+    m_flagName "GC_SEPARATIST"
+   }
+  }
+  TILW_MissionEvent "{6A54805F75768576}" {
+   m_name "Time Up"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A54805F6D1B95C4}" {
+     m_executionDelay 2700
+     m_messageTitle "Times UP"
+     m_messageBody "45 minutes have past and the US forces have won"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A54805F4194F884}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6A54805F3BE58BC7}" {
+   m_flagName "SepKIA"
+   m_factionKey "GC_SEPARATIST"
+  }
+ }
+}

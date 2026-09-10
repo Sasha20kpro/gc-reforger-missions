@@ -1,0 +1,80 @@
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 913.291 137.264 4370.517
+ }
+ BTR70_AFRF2 {
+  coords 904.712 136.693 4371.593
+ }
+ BTR70_AFRF3 {
+  coords 922.272 137.881 4371.897
+ }
+}
+GenericEntity : "{47B7E8CA1935BB28}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Fuel.et" {
+ components {
+  SCR_FuelSupportStationComponent "{5E1CF311DF6C3CBE}" {
+   m_eSupportStationPriority VERY_HIGH
+   m_fRange 30
+  }
+  SCR_RepairSupportStationComponent "{6A548059B7E2A40E}" {
+   m_eSupportStationPriority HIGH
+   m_fRange 30
+  }
+  WCS_RearmSupportStationComponent "{6A548059A5ACE048}" {
+   m_eSupportStationPriority MEDIUM
+   m_fRange 30
+  }
+ }
+ coords 441.283 137.585 3381.961
+}
+SCR_AIGroup : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/Group_SEP_PHQ_P.et" {
+ coords 928.109 137.191 4336.761
+ m_aStaticVehicles {
+  "BTR70_AFRF3"
+ }
+ m_iMaxMembers 5
+ m_sCustomNameSet "PHQ"
+}
+$grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/Group_SEP_RifleSquad_P.et" {
+ {
+  coords 932.138 138.111 4368.505
+  m_aStaticVehicles {
+   "BTR70_AFRF1"
+  }
+  m_iMaxMembers 8
+  m_sCustomNameSet "Rifles Alpha"
+ }
+ {
+  coords 925.362 137.243 4349.696
+  m_aStaticVehicles {
+   "BTR70_AFRF2"
+  }
+  m_iMaxMembers 8
+  m_sCustomNameSet "Rifles Bravo"
+ }
+ {
+  coords 434.52 137.602 3373.141
+  m_aUnitPrefabSlots {
+   "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"
+   "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"
+  }
+  m_aStaticVehicles {
+   "AH6M_ATGMx1"
+  }
+  m_iMaxMembers 2
+  m_sCustomNameSet "PilotCrew"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 919.764 137.124 4361.175
+}
+Vehicle AH6M_ATGMx1 : "{C28701D4428959F5}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx2.et" {
+ coords 444.995 137.549 3379.655
+ angles 0 33.891 0
+}
+StaticModelEntity : "{D4ABEC6A0DB2E253}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Utility/E_Helipad_Lights_US_01.et" {
+ coords 445.299 -0.001 3379.475
+ angles 0 35.506 0
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 440.803 137.581 3376.697
+}

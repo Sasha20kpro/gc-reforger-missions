@@ -1,0 +1,18 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 780.674 134.944 4285.107
+  m_sTitle "OVERVIEW"
+  m_sTextData "<b>OVERVIEW</b>"\
+  ""\
+  "Separatists Ambush an US Armored Column (With Air Support)"
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 826.176 137.407 4135.837
+  m_sTitle "NOTES"
+  m_sTextData "<b>NOTES</b>"\
+  ""\
+  "US Victory: Separatists KIA OR 45 Min Pass"\
+  "Separatist Victory: Armored Column Fully Destroyed."
+ }
+}

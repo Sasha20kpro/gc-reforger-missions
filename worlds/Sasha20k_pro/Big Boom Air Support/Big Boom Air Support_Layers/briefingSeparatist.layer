@@ -1,0 +1,59 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 663.715 135.999 4460.725
+  m_sTitle "SITUATION"
+  m_sTextData "<b>SITUATION</b>"\
+  ""\
+  ""\
+  "A US Armored Column Consisting of 3 Inoperative M2A3 BUSK Bradleys and 2 Inoperative M1A2 Abrams has stopped dues to a fuel shortage while retreating and we set up positions of Ambush it."\
+  ""\
+  "We consist of Two rifle Squads with One PHQ and Three BTR-70 For Transport and one heli With Stingers or ATGMs (read Support) with its crew."\
+  "The enemy defense Consists of One Rifle Squad Defending the Column and Two Apaches for air support."
+  m_aVisibleForFactions {
+   "GC_INSURGENTS"
+  }
+ }
+ {
+  coords 727.981 136.031 4233.381
+  m_sTitle "MISSION"
+  m_sTextData "<b>MISSION</b>"\
+  ""\
+  "Destroy the armored column Completelly"
+  m_aVisibleForFactions {
+   "GC_INSURGENTS"
+  }
+ }
+ {
+  coords 837.205 137.412 4137.485
+  m_sTitle "SUPPORT"
+  m_sTextData "<b>SUPPORT</b>"\
+  ""\
+  "One Little Bird Helicopter with its Crew which initially has a stinger loadout to kill the enemy APACHE Helis but can be changed for one with ATGMs whenever Stationed on its helipad with noone inside it."\
+  ""\
+  "Helipad Landing Site has unlimited Resupply, refuel and rearm for the Little bird"\
+  ""\
+  "Once Destroyed, the little bird is gone forever."
+  m_aVisibleForFactions {
+   "GC_INSURGENTS"
+  }
+ }
+ {
+  coords 693.117 135.316 4261.952
+  m_sTitle "COMMAND"
+  m_sTextData "<b>COMMAND</b>"\
+  ""\
+  "PHQ Commands everything including heli Support and is the only who can ask for the ATGM Little Bird and vice versa whenever he wants while the current heli is NOT damaged nor destroyed and is stationary on its landing helipad with noone inside"\
+  ""\
+  "RADIO;"\
+  ""\
+  "MHz 48 Platoon net"\
+  "MHz 48.5 heli Support net"\
+  "MHz 47 Squad Alpha "\
+  "MHz 47.5 Squad Bravo"\
+  ""\
+  "Heli crew have Radio Backpack"
+  m_aVisibleForFactions {
+   "GC_INSURGENTS"
+  }
+ }
+}
