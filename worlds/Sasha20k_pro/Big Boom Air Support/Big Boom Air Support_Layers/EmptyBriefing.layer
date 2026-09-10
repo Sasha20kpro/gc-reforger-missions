@@ -15,4 +15,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "US Victory: Separatists KIA OR 45 Min Pass"\
   "Separatist Victory: Armored Column Fully Destroyed."
  }
+ {
+  coords 2555.154 298.771 2579.143
+  m_sTitle "Game Mastering"
+  m_sTextData "<bGAME MASTERING</b>"\
+  ""\
+  "1. When Separatists Wanna change their heli to ATGM/Stinger do that ONLY if conditions are right; heli msot be totally fine with no damege, empty of ppl and on its helipad stationed"\
+  ""\
+  "2. Make sure NOONE enters the vehicles in the armored column (they are supposed to be inoperable)"
+  m_bEmptyFactionVisibility 1
+ }
 }

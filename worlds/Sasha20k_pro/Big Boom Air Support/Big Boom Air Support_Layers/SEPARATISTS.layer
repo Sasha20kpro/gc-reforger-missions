@@ -1,3 +1,7 @@
+Vehicle AH6M_AIM92x1 : "{0D355CF9D40F79CA}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92x2.et" {
+ coords 445.328 137.583 3379.744
+ angles 0 37.024 0
+}
 $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
  BTR70_AFRF1 {
   coords 913.291 137.264 4370.517
@@ -66,10 +70,6 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 919.764 137.124 4361.175
-}
-Vehicle AH6M_ATGMx1 : "{C28701D4428959F5}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx2.et" {
- coords 444.995 137.549 3379.655
- angles 0 33.891 0
 }
 StaticModelEntity : "{D4ABEC6A0DB2E253}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Utility/E_Helipad_Lights_US_01.et" {
  coords 445.299 -0.001 3379.475

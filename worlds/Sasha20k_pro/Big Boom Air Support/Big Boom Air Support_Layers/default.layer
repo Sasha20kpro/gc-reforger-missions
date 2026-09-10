@@ -58,49 +58,49 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position 1525.125 0 975.672
   }
   ShapePoint "{6A54806885706DA4}" {
-   Position 1925.998 -0 1056.824
+   Position 1925.998 0 1056.824
   }
   ShapePoint "{6A54806884416F24}" {
-   Position 2189.263 -0 1044.106
+   Position 2189.263 0 1044.106
   }
   ShapePoint "{6A5480688F18AD0F}" {
-   Position 2369.759 -0 1020.286
+   Position 2369.759 0 1020.286
   }
   ShapePoint "{6A5480688E9453C1}" {
-   Position 2550.453 -0 977.01
+   Position 2550.453 0 977.01
   }
   ShapePoint "{6A5480688E1D1A1D}" {
-   Position 2712.764 -0 901.212
+   Position 2712.764 0 901.212
   }
   ShapePoint "{6A5480688D2FADA3}" {
-   Position 2855.831 -0 873.529
+   Position 2855.831 0 873.529
   }
   ShapePoint "{6A5480688C862032}" {
-   Position 3023.97 -0 802.45
+   Position 3023.97 0 802.45
   }
   ShapePoint "{6A5480688C0EB2D4}" {
-   Position 3155.788 -0 783.554
+   Position 3155.788 0 783.554
   }
   ShapePoint "{6A54806889AEF6CD}" {
    Position 3311.34 0 707.659
   }
   ShapePoint "{6A54806889401D0A}" {
-   Position 3436.352 -0 695.756
+   Position 3436.352 0 695.756
   }
   ShapePoint "{6A54806888CAE365}" {
-   Position 3579.519 -0 663.659
+   Position 3579.519 0 663.659
   }
   ShapePoint "{6A548068882BBE18}" {
-   Position 3751.951 -0 677.359
+   Position 3751.951 0 677.359
   }
   ShapePoint "{6A548068F74FEA15}" {
-   Position 3908.566 -0 984.068
+   Position 3908.566 0 984.068
   }
   ShapePoint "{6A548068F60C088A}" {
-   Position 3516.475 -0 1241.205
+   Position 3516.475 0 1241.205
   }
   ShapePoint "{6A548068F01E66FF}" {
-   Position 2750.706 -0 1468.098
+   Position 2750.706 0 1468.098
   }
   ShapePoint "{6A548068FF017BD9}" {
    Position 2086.247 0 1467.189
@@ -127,7 +127,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position 360.859 0 1256.399
   }
   ShapePoint "{6A548068E5D147A8}" {
-   Position 236.328 -0 1023.409
+   Position 236.328 0 1023.409
   }
   ShapePoint "{6A548068E52AC61E}" {
    Position 159.583 0 907.98
